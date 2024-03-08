@@ -59,8 +59,7 @@ app.post("/login", async (req, res) => {
     });
     if (result.length > 0) {
       if (result[0].password === password) {
-        const token = jwt.sign(username, process.env.TOKEN_SECRET);
-        // res.set("Authorization", `Bearer ${token}`);
+        const token = jwt.sign({ username }, process.env.TOKEN_SECRET);
         return res.json({ token });
       } else {
         return res.send("Invalid username or password");
