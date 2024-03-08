@@ -1,4 +1,4 @@
-# Task 3: Token-based Session Management Demo
+# Chapter 4 Lab - Task 2: Token-based Session Management
 
 In Task 1, we have discussed the problem of authenticating users each time they want to see their posts. In Task 2, we have solved such a problem using session-based session management.
 In this task, we will get a demonstration of another way to handle users’ session and that is using Json Web Tokens (or JWT).
