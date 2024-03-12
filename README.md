@@ -5,7 +5,7 @@ In this task, we will get a demonstration of another way to handle users’ sess
 
 ## Project Preparation
 
-1. Clone or download the code from the following GitHub repo: https://github.com/houcine1amraoui/lab3-task3-token-based-session-management-demo
+1. Clone or download the code from the following GitHub repo: https://github.com/houcine1amraoui/chap4lab-task2-token-based-session-management
 2. Open the project folder with VS Code.
 3. Open the integrated terminal and run “npm install” command to install the dependencies.
 4. Run “npm run start” command to run the server.
